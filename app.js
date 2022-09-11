@@ -152,6 +152,7 @@ function snak() {
 snak();
 document.querySelector("#restart").addEventListener("click", () => {
   music.pause();
+  score=0;
   for (var z = 0; z < 1225; z++) {
     clutter += `<div data-num="${2 * z}" class="square" id="s${2 * z}"></div>
     <div data-num="${2 * z + 1}" class="square2" id="s${2 * z + 1}"></div>`;
