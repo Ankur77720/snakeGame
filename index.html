@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="shortcut icon" href="./favicon_io/favicon.ico" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./favicon_io/favicon.ico"
+      type="image/x-icon"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Snake Game</title>
     <link
@@ -19,7 +23,10 @@
         <p>Score: <span id="mainscore"></span></p>
         <button id="restart">Restart</button>
       </div>
-      <div id="score"></div>
+      <div style="display: flex; gap: 5vw">
+        <div id="score"></div>
+        <div id="highScore"></div>
+      </div>
       <div id="lower">
         <div class="buttons">
           <button><i id="up" class="ri-arrow-up-line"></i></button>
